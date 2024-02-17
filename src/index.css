@@ -29,7 +29,42 @@ a {
 img {
   display: flex;
 }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: flex;
+}
+
+body {
+  height: 100%;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  color: #5f5b57;
+}
 body {
   background: #fff;
   height: 100%;
