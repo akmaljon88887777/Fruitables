@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import "../../App.css";
 // import JQuery from "jquery";
 
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../../App.css";
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -40,9 +40,9 @@ function Navbar() {
   // });
   return (
     <div className="w-full py-[28px] bg-white shadow-xl sticky">
-      <div className="flex justify-around xl:justify-around md:justify-between md:mx-6">
+      <div className="flex justify-around items-center xl:justify-around md:justify-between md:mx-6">
         <div>
-          <h4 className="font-bold xl:font-extrabold text-[#81c408] text-4xl">
+          <h4 className="font-bold xl:font-extrabold text-[#81c408] text-[40px]">
             Fruitables
           </h4>
         </div>
@@ -60,7 +60,7 @@ function Navbar() {
           )}
         </button>
         <div className="lg:flex gap-10 hidden text-[16px] font-normal text-[#747d88] items-center md:hidden">
-          <Link
+          <NavLink
             to={"/"}
             className={({ isActive, isPending }) =>
               isPending
@@ -71,31 +71,104 @@ function Navbar() {
             }
           >
             Home
-          </Link>
+          </NavLink>
 
-          <Link to={"/shop"}>Shop</Link>
+          <NavLink
+            to={"/shop"}
+            className={({ isActive, isPending }) =>
+              isPending
+                ? "pending"
+                : isActive
+                ? "text-[#17a2b8] font-bold Active"
+                : "NoActive"
+            }
+          >
+            Shop
+          </NavLink>
 
-          <Link to={"/shopdetail"}>Shop Detail</Link>
+          <NavLink
+            to={"/shopdetail"}
+            className={({ isActive, isPending }) =>
+              isPending
+                ? "pending"
+                : isActive
+                ? "text-[#17a2b8] font-bold Active"
+                : "NoActive"
+            }
+          >
+            Shop Detail
+          </NavLink>
 
           <div class="dropdown">
             <button class="dropbtn">Pages</button>
             <div class="dropdown-content">
-              <a href="#" onClick={() => navigate11()}>
+              <a
+                href="#"
+                onClick={() => navigate11()}
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#17a2b8] font-bold Active"
+                    : "NoActive"
+                }
+              >
                 Cart
               </a>
-              <a href="#" onClick={() => navigate22()}>
+              <a
+                href="#"
+                onClick={() => navigate22()}
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#17a2b8] font-bold Active"
+                    : "NoActive"
+                }
+              >
                 Chackout
               </a>
-              <a href="#" onClick={() => navigate33()}>
+              <a
+                href="#"
+                onClick={() => navigate33()}
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#17a2b8] font-bold Active"
+                    : "NoActive"
+                }
+              >
                 Testimonial
               </a>
-              <a href="#" onClick={() => navigate44()}>
+              <a
+                href="#"
+                onClick={() => navigate44()}
+                className={({ isActive, isPending }) =>
+                  isPending
+                    ? "pending"
+                    : isActive
+                    ? "text-[#17a2b8] font-bold Active"
+                    : "NoActive"
+                }
+              >
                 404 Page
               </a>
             </div>
           </div>
 
-          <Link to={"/contact"}>Contact</Link>
+          <NavLink
+            to={"/contact"}
+            className={({ isActive, isPending }) =>
+              isPending
+                ? "pending"
+                : isActive
+                ? "text-[#17a2b8] font-bold Active"
+                : "NoActive"
+            }
+          >
+            Contact
+          </NavLink>
         </div>
         <div className="lg:flex gap-2 md:hidden hidden">
           <div className="w-[44px] h-[44px] border rounded-full flex items-center justify-center border-[#ffb524]">
