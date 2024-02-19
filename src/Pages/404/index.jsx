@@ -1,8 +1,14 @@
 import { AiOutlineWarning } from "react-icons/ai";
 
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Notfound() {
+  const navigate2 = useNavigate(false);
+
+  const handleNext2 = () => {
+    navigate2("/");
+  };
   return (
     <div>
       <div>
@@ -25,6 +31,7 @@ function Notfound() {
         </div>
         <div>
           <button
+            onClick={() => handleNext2()}
             style={{ transition: "all .3s" }}
             className="font-semibold border text-[#747d88] p-6 px-[50px] border-[#FFB524] hover:bg-[#FFB524] hover:text-white mt-12 rounded-[50rem]"
           >

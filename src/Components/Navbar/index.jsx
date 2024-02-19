@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
 import React from "react";
+import "../../App.css";
 // import JQuery from "jquery";
 
 import { Link, NavLink, useNavigate } from "react-router-dom";
@@ -18,10 +19,10 @@ function Navbar() {
     navigate("/notfound");
   };
 
-  const navigate2 = useNavigate(false);
+  const navigate3 = useNavigate(false);
 
-  const handleNext2 = () => {
-    navigate2("/");
+  const handleNext3 = () => {
+    navigate3("/checkout");
   };
 
   // JQuery(function ($) {
@@ -78,7 +79,9 @@ function Navbar() {
             <button class="dropbtn">Dropdown</button>
             <div class="dropdown-content">
               <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
+              <a onClick={() => handleNext3()} href="#">
+                Checkout
+              </a>
               <a onClick={() => handleNext()} href="#">
                 404
               </a>
