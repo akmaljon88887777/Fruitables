@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+<<<<<<< HEAD
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -38,4 +39,12 @@
   to {
     transform: rotate(360deg);
   }
+=======
+.hero_img {
+  background-image: url("./Assets/hero-img.jpg");
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  background-position: center;
+>>>>>>> a280d49dc34bc27996e4b4e1f8d52a796bcd3c9d
 }
