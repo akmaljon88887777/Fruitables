@@ -10,19 +10,19 @@ import Description from "./Tabs/description";
 import Reviews from "./Tabs/reviewn";
 import { NavLink } from "react-router-dom";
 function ShopDetail() {
-  const [counter, setCounter] = useState(1);
+  const [counter, setCounter] = useState(2);
   const [demo, setDemo] = useState(false);
 
   const handleIncrement = () => {
-    setCounter((prev) => prev + 1);
+    setCounter(counter + 1);
   };
 
   const handleDecerement = () => {
-    setCounter((prev) => prev - 1);
+    setCounter(counter - 1);
   };
 
   return (
-    <div className="">
+    <div className="mt-[15%]">
       <div
         style={{ justifyItems: "center" }}
         className="grid lg:grid-cols-3 xl:grid-cols-3 grid-cols-1 object-cover my-24 justify-items-center mx-36"
@@ -54,14 +54,14 @@ function ShopDetail() {
           <br />
           <div className="flex">
             <button
-              onClick={() => handleIncrement}
+              onClick={() => handleDecerement()}
               className="w-[30px] h-[30px] rounded-full text-5xl bg-[#f4f6f8]"
             >
               -
             </button>
             <p className="w-[30px] h-[30px] text-center">{counter}</p>
             <button
-              onClick={() => handleDecerement}
+              onClick={() => handleIncrement()}
               className="w-[30px] h-[30px] rounded-full text-5xl bg-[#f4f6f8]"
             >
               +

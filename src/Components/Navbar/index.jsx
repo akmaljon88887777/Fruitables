@@ -3,13 +3,24 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import "../../App.css";
-// import JQuery from "jquery";
+import JQuery from "jquery";
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "../../App.css";
 function Navbar() {
+  JQuery(function ($) {
+    var $navbar = $(".navbar");
+    $(window).scroll(function (event) {
+      var $current = $(this).scrollTop();
+      if ($current > 0) {
+        $navbar.addClass("navbar-color");
+      } else {
+        $navbar.removeClass("navbar-color");
+      }
+    });
+  });
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
   const navigate1 = useNavigate(false);
@@ -39,7 +50,7 @@ function Navbar() {
   //   });
   // });
   return (
-    <div className="w-full py-[28px] bg-white shadow-xl sticky">
+    <div className="w-full navbar py-[28px] bg-white">
       <div className="flex justify-around items-center xl:justify-around md:justify-between md:mx-6">
         <div>
           <h4 className="font-bold xl:font-extrabold text-[#81c408] text-[40px]">
