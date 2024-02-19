@@ -45,9 +45,19 @@ function ShopDetail() {
             flounder; chain pickerel hatchetfish, pencilfish snailfish
           </p>
           <div className="flex">
-            <button onClick={() => handleClick1}>-</button>
+            <button
+              onClick={() => handleClick1}
+              className="w-[30px] h-[30px] rounded-full bg-[#f4f6f8]"
+            >
+              -
+            </button>
             <p>{counter}</p>
-            <button onClick={() => handleClick2}>+</button>
+            <button
+              onClick={() => handleClick2}
+              className="w-[30px] h-[30px] rounded-full bg-[#f4f6f8]"
+            >
+              +
+            </button>
           </div>
         </div>
         <div></div>
