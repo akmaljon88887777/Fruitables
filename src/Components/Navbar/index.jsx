@@ -3,11 +3,11 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
-import { useNavigate } from "react-router-dom";
+import React from "react";
 import "../../App.css";
 // import JQuery from "jquery";
 
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "../../App.css";
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -70,7 +70,7 @@ function Navbar() {
                 : "NoActive"
             }
           >
-            Home
+            Hom
           </Link>
 
           <Link to={"/shop"}>Shop</Link>
