@@ -12,17 +12,19 @@ import "../../App.css";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+  const navigate1 = useNavigate(false);
 
-  const navigate = useNavigate(false);
-
-  const handleNext = () => {
-    navigate("/notfound");
+  const navigate11 = () => {
+    navigate1("/cart");
   };
-
-  const navigate3 = useNavigate(false);
-
-  const handleNext3 = () => {
-    navigate3("/checkout");
+  const navigate22 = () => {
+    navigate1("/checkout");
+  };
+  const navigate33 = () => {
+    navigate1("/testiminionals");
+  };
+  const navigate44 = () => {
+    navigate1("/notfound");
   };
 
   // JQuery(function ($) {
@@ -76,14 +78,19 @@ function Navbar() {
           <Link to={"/shopdetail"}>Shop Detail</Link>
 
           <div class="dropdown">
-            <button class="dropbtn">Dropdown</button>
+            <button class="dropbtn">Pages</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
-              <a onClick={() => handleNext3()} href="#">
-                Checkout
+              <a href="#" onClick={() => navigate11()}>
+                Cart
               </a>
-              <a onClick={() => handleNext()} href="#">
-                404
+              <a href="#" onClick={() => navigate22()}>
+                Chackout
+              </a>
+              <a href="#" onClick={() => navigate33()}>
+                Testimonial
+              </a>
+              <a href="#" onClick={() => navigate44()}>
+                404 Page
               </a>
             </div>
           </div>
