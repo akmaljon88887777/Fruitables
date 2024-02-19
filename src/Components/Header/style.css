@@ -10,7 +10,7 @@
 .HeaderCarousel {
     border-radius: 10px;
     background-color: #FFB524;
-    width: 36%;
+    width: 33%;
 }
 
 .HeaderCarousel img {
@@ -50,8 +50,8 @@
     height: 30px !important;
     border-radius: 50%;
     font-weight: bolder;
-    background-color: rgb(136, 255, 144);
-    opacity: 0.7;
+    background-color: #81C408;
+    opacity: 0.5;
 }
 
 .HeaderCarousel .swiper-button-next {
@@ -65,8 +65,8 @@
     height: 30px !important;
     border-radius: 50%;
     font-weight: bolder;
-    background-color: rgb(136, 255, 144);
-    opacity: 0.7;
+    background-color: #81C408;
+    opacity: 0.5;
 }
 @media screen and (max-width:1200px) {
     .HeaderCarousel img {

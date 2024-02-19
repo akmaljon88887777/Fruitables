@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { LuMoveRight } from "react-icons/lu";
+import { FaShoppingBag } from "react-icons/fa";
 import img1 from "../Assets//vegetable-item-1.jpg";
 import img2 from "../Assets/vegetable-item-2.jpg";
 import img3 from "../Assets/vegetable-item-3.png";
@@ -13,8 +14,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import "./style.css";
-import { FaStar } from "react-icons/fa";
-import { FaQuoteRight } from "react-icons/fa";
+// import { FaStar } from "react-icons/fa";
+// import { FaQuoteRight } from "react-icons/fa";
 import { LuMoveLeft } from "react-icons/lu";
 // import required modules
 import { Navigation } from "swiper/modules";
@@ -30,59 +31,58 @@ export default function TestimonialCarousel() {
       <Swiper
         slidesPerView={4}
         breakpoints={{
-          300:{
+          300: {
             slidesPerView: 1,
-            spaceBetween:20
+            spaceBetween: 20,
           },
-          640:{
+          640: {
             slidesPerView: 1.8,
-            spaceBetween:90
+            spaceBetween: 90,
           },
-          700:{
+          700: {
             slidesPerView: 2,
-            spaceBetween:90
+            spaceBetween: 90,
           },
-          768:{
+          768: {
             slidesPerView: 2,
-            spaceBetween:20
+            spaceBetween: 20,
           },
-          800:{
+          800: {
             slidesPerView: 2.1,
-            spaceBetween:90
+            spaceBetween: 90,
           },
-          850:{
+          850: {
             slidesPerView: 2.1,
-            spaceBetween:30
+            spaceBetween: 30,
           },
-          910:{
+          910: {
             slidesPerView: 2.3,
-            spaceBetween:20
+            spaceBetween: 20,
           },
-          990:{
+          990: {
             slidesPerView: 2.5,
-            spaceBetween:20
+            spaceBetween: 20,
           },
           1100: {
             slidesPerView: 3.2,
-            spaceBetween:20
+            spaceBetween: 20,
           },
           1160: {
             slidesPerView: 3.4,
-            spaceBetween:60
+            spaceBetween: 60,
           },
           1200: {
             slidesPerView: 3,
-            spaceBetween:10
-          },    
+            spaceBetween: 10,
+          },
           1240: {
             slidesPerView: 3.2,
-            spaceBetween:20
-          },   
+            spaceBetween: 20,
+          },
           1300: {
             slidesPerView: 4,
-            spaceBetween:20
+            spaceBetween: 20,
           },
-         
         }}
         navigation={{
           nextEl: ".custom-button-next",
@@ -91,13 +91,13 @@ export default function TestimonialCarousel() {
         spaceBetween={30}
         loop
         modules={[Navigation]}
-        className="testimonialCarousel h-[400px] max-xl:w-[1000px] xl:w-[1250px] max-lg:w-[90%]"
+        className="testimonialCarousel h-[500px] max-xl:w-[1000px]  xl:w-[1250px] max-lg:w-[90%]"
       >
         <SwiperSlide>
           <div>
             <div className="flex border flex-col pb-[1.4em] rounded-lg items-start justify-start w-[300px] max-lg:w-[350px] max-sm:w-[100%]">
               <img className="rounded-lg " src={img1} alt="Banana Img" />
-              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#f277]">
+              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#81C408] text-white">
                 Vegitable
               </p>
               <div className="pl-[1em]">
@@ -113,9 +113,12 @@ export default function TestimonialCarousel() {
                   <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
                     $7.99 / kg
                   </p>
-                  <p className="px-[20px] h-[33px] border  border-red-800 w-[130px] flex items-center justify-center rounded-3xl">
-                    Add to Cart
-                  </p>
+                  <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -125,8 +128,12 @@ export default function TestimonialCarousel() {
         <SwiperSlide>
           <div>
             <div className="flex border flex-col pb-[1.4em] rounded-lg items-start justify-start w-[300px] max-lg:w-[350px] max-sm:w-[100%]">
-              <img className="rounded-lg " src={img2} alt="Banana Img" />
-              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#f277]">
+              <img
+                className="rounded-lg h-[240px]"
+                src={img2}
+                alt="Banana Img"
+              />
+              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#81C408] text-white">
                 Vegitable
               </p>
               <div className="pl-[1em]">
@@ -142,9 +149,12 @@ export default function TestimonialCarousel() {
                   <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
                     $7.99 / kg
                   </p>
-                  <p className="px-[20px] h-[33px] border  border-red-800 w-[130px] flex items-center justify-center rounded-3xl">
-                    Add to Cart
-                  </p>
+                  <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -154,8 +164,10 @@ export default function TestimonialCarousel() {
         <SwiperSlide>
           <div>
             <div className="flex border flex-col pb-[1.4em] rounded-lg items-start justify-start w-[300px] max-lg:w-[350px] max-sm:w-[100%]">
-              <img className="rounded-lg " src={img3} alt="Banana Img" />
-              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#f277]">
+              <div className="bg-[#f1f1f1]">
+                <img className="rounded-lg " src={img3} alt="Banana Img" />
+              </div>
+              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#81C408] text-white">
                 Vegitable
               </p>
               <div className="pl-[1em]">
@@ -171,9 +183,12 @@ export default function TestimonialCarousel() {
                   <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
                     $7.99 / kg
                   </p>
-                  <p className="px-[20px] h-[33px] border  border-red-800 w-[130px] flex items-center justify-center rounded-3xl">
-                    Add to Cart
-                  </p>
+                  <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -184,7 +199,7 @@ export default function TestimonialCarousel() {
           <div>
             <div className="flex border flex-col pb-[1.4em] rounded-lg items-start justify-start w-[300px] max-lg:w-[350px] max-sm:w-[100%]">
               <img className="rounded-lg " src={img4} alt="Banana Img" />
-              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#f277]">
+              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#81C408] text-white">
                 Vegitable
               </p>
               <div className="pl-[1em]">
@@ -200,9 +215,12 @@ export default function TestimonialCarousel() {
                   <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
                     $7.99 / kg
                   </p>
-                  <p className="px-[20px] h-[33px] border  border-red-800 w-[130px] flex items-center justify-center rounded-3xl">
-                    Add to Cart
-                  </p>
+                  <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -213,7 +231,7 @@ export default function TestimonialCarousel() {
           <div>
             <div className="flex border flex-col pb-[1.4em] rounded-lg items-start justify-start w-[300px] max-lg:w-[350px] max-sm:w-[100%]">
               <img className="rounded-lg " src={img5} alt="Banana Img" />
-              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#f277]">
+              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#81C408] text-white">
                 Vegitable
               </p>
               <div className="pl-[1em]">
@@ -229,9 +247,12 @@ export default function TestimonialCarousel() {
                   <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
                     $7.99 / kg
                   </p>
-                  <p className="px-[20px] h-[33px] border  border-red-800 w-[130px] flex items-center justify-center rounded-3xl">
-                    Add to Cart
-                  </p>
+                  <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -242,7 +263,7 @@ export default function TestimonialCarousel() {
           <div>
             <div className="flex border flex-col pb-[1.4em] rounded-lg items-start justify-start w-[300px] max-lg:w-[350px] max-sm:w-[100%]">
               <img className="rounded-lg " src={img6} alt="Banana Img" />
-              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#f277]">
+              <p className="mb-[200px] mt-[10px] ml-[180px]  z-[9999999] rounded-[10px] absolute px-[20px] w-[105px] py-[4px] bg-[#81C408] text-white">
                 Vegitable
               </p>
               <div className="pl-[1em]">
@@ -258,9 +279,12 @@ export default function TestimonialCarousel() {
                   <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
                     $7.99 / kg
                   </p>
-                  <p className="px-[20px] h-[33px] border  border-red-800 w-[130px] flex items-center justify-center rounded-3xl">
-                    Add to Cart
-                  </p>
+                  <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
                 </div>
               </div>
             </div>

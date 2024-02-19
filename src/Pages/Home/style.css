@@ -15,29 +15,31 @@
     font-family: "Raleway", sans-serif;
 }
 
-.custom-button-prev {
+.custom-button-prevvv {
     font-size: 18px;
+    color: #81C408;
     padding: 9px 25px;
     border-radius: 20px;
-    border: 1px solid #f00;
+    border: 1px solid #FFB524;
     margin-left: 79%;
     margin-top: -470px;
     position: absolute;
     z-index: 999;
 }
 
-.custom-button-next {
+.custom-button-nexttt {
     font-size: 18px;
     padding: 9px 25px;
     border-radius: 20px;
-    border: 1px solid #f00;
+    color: #81C408;
+    border: 1px solid #FFB524;
     margin-left: 73.5%;
     margin-top: -470px;
     position: absolute;
     z-index: 999;
 }
 
-@media screen and (max-width:1530px) {
+@media screen and (max-width:1630px) {
     .free__icon_contaoner {
         content: "";
         width: 35px;
@@ -48,7 +50,6 @@
         margin-top: 35px;
         transform: rotate(45deg);
         background: #FFB524;
-
     }
 
 }
@@ -70,22 +71,22 @@
 
 @media screen and (max-width:1150px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 82%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 90.5%;
         margin-top: -470px;
         position: absolute;
@@ -95,22 +96,22 @@
 
 @media screen and (max-width:1250px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 77%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 70.5%;
         margin-top: -470px;
         position: absolute;
@@ -148,22 +149,22 @@
 
     }
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 67%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 75.5%;
         margin-top: -470px;
         position: absolute;
@@ -200,22 +201,22 @@
 
     }
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 67%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 75.5%;
         margin-top: -470px;
         position: absolute;
@@ -240,22 +241,22 @@
 
 @media screen and (max-width:920px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 72%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 82.5%;
         margin-top: -470px;
         position: absolute;
@@ -293,22 +294,22 @@
     }
 
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 62%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 72.5%;
         margin-top: -470px;
         position: absolute;
@@ -319,22 +320,22 @@
 
 @media screen and (max-width:710px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 67%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 79.5%;
         margin-top: -470px;
         position: absolute;
@@ -374,22 +375,20 @@
 
 @media screen and (max-width:580px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
         margin-left: 57%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
         margin-left: 75.5%;
         margin-top: -470px;
         position: absolute;
@@ -488,22 +487,22 @@
 }
 
 @media screen and (min-width:1380px) {
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 73%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 79%;
         margin-top: -470px;
         position: absolute;
@@ -513,22 +512,22 @@
 
 @media screen and (max-width:450px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 43%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 63.5%;
         margin-top: -470px;
         position: absolute;
@@ -538,22 +537,22 @@
 
 @media screen and (max-width:350px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 48%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 72.5%;
         margin-top: -470px;
         position: absolute;
@@ -563,23 +562,48 @@
 
 @media screen and (max-width:330px) {
 
-    .custom-button-prev {
+    .custom-button-prevvv {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 35%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;
     }
 
-    .custom-button-next {
+    .custom-button-nexttt {
         font-size: 18px;
         padding: 9px 25px;
         border-radius: 20px;
-        border: 1px solid #f00;
+        /* border: 1px solid #f00; */
         margin-left: 60.5%;
+        margin-top: -470px;
+        position: absolute;
+        z-index: 999;
+    }
+}
+
+@media screen and (min-width:1430px) {
+
+    .custom-button-prevvv {
+        font-size: 18px;
+        padding: 9px 25px;
+        border-radius: 20px;
+        /* border: 1px solid #f00; */
+        margin-left: 85%;
+        margin-top: -470px;
+        position: absolute;
+        z-index: 999;
+    }
+
+    .custom-button-nexttt {
+        font-size: 18px;
+        padding: 9px 25px;
+        border-radius: 20px;
+        /* border: 1px solid #f00; */
+        margin-left: 78.5%;
         margin-top: -470px;
         position: absolute;
         z-index: 999;

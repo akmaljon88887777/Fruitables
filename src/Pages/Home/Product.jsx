@@ -91,7 +91,7 @@ const Product = () => {
       <div className="flex justify-center mt-[60px] items-center max-sm:px-[8%] flex-wrap gap-[1.7em]">
         {ProductData.map((item, index) => {
           return (
-            <div key={index} className="flex gap-[1em] rounded-lg bg-slate-500 w-[415px] py-[1.5em] items-center justify-center">
+            <div key={index} className="flex gap-[1em] rounded-lg bg-[#F4F6F8] w-[415px] py-[1.5em] items-center justify-center">
               <div className="flex items-center justify-center">
                 <img className="w-[171px] rounded-full" src={item.img} alt="" />
               </div>
@@ -100,21 +100,21 @@ const Product = () => {
                   {item.title}
                 </p>
                 <div className="flex mt-[15px] items-center justify-start">
-                  <p className="text-[1.18rem]">{item.star}</p>
-                  <p className="text-[1.18rem]">{item.star}</p>
-                  <p className="text-[1.18rem]">{item.star}</p>
-                  <p className="text-[1.18rem]">{item.star}</p>
-                  <p className="text-[1.18rem]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#677676]">{item.star}</p>
                 </div>
                 <p className="raleway mt-[10px] text-start font-semibold leading-[1.2] text-[#45595b] text-[1.45rem]">
                   {item.sum}
                 </p>
-                <div className="max-sm:inline sm:flex  max-sm:w-[140px] max-sm:px-[10%] ml-[-10%] max-sm:py-[5px] sm:h-[36px] border  border-red-800 sm:w-[130px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
-                  <span className="max-sm:inline-flex max-sm:pt-[4px] max-sm:float-left">
-                    <FaShoppingBag />
-                  </span>
-                  <span className="font-medium">Add to cart</span>
-                </div>
+                <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
               </div>
             </div>
           );
@@ -132,21 +132,21 @@ const Product = () => {
                   {item.title}
                 </p>
                 <div className="flex mt-[15px] items-center justify-center">
-                  <p className="text-[1.1rem]">{item.star}</p>
-                  <p className="text-[1.1rem]">{item.star}</p>
-                  <p className="text-[1.1rem]">{item.star}</p>
-                  <p className="text-[1.1rem]">{item.star}</p>
-                  <p className="text-[1.1rem]">{item.star}</p>
+                <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#81C408]">{item.star}</p>
+                  <p className="text-[1.18rem] text-[#677676]">{item.star}</p>
                 </div>
                 <p className="raleway mt-[15px] text-center font-semibold leading-[1.2] text-[#45595b] text-[1.45rem]">
                   {item.sum}
                 </p>
-                <div className="flex h-[36px] border  border-red-800 w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
-                  <span>
-                    <FaShoppingBag />
-                  </span>
-                  <p className="font-medium">Add to cart</p>
-                </div>
+                <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
+                    <span className="text-[#81C408] ">
+                      <FaShoppingBag />
+                    </span>
+                    <p className="font-medium">Add to cart</p>
+                  </div>
               </div>
             </div>
           );
