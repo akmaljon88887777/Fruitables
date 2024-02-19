@@ -70,7 +70,7 @@ function Navbar() {
                 : "NoActive"
             }
           >
-            Hom
+            Home
           </Link>
 
           <Link to={"/shop"}>Shop</Link>
