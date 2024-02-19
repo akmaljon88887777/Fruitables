@@ -6,11 +6,24 @@ import { BiSearch } from "react-icons/bi";
 import React from "react";
 // import JQuery from "jquery";
 
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "../../App.css";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+
+  const navigate = useNavigate(false);
+
+  const handleNext = () => {
+    navigate("/notfound");
+  };
+
+  const navigate2 = useNavigate(false);
+
+  const handleNext2 = () => {
+    navigate2("/");
+  };
+
   // JQuery(function ($) {
   //   var $navbar = $(".navbar");
   //   $(window).scroll(function (event) {
@@ -61,17 +74,16 @@ function Navbar() {
 
           <Link to={"/shopdetail"}>Shop Detail</Link>
 
-          <select
-            className="active:border-none border-none focus:border-none w-[15%]"
-            name=""
-            id=""
-          >
-            <option value="">Pages</option>
-            <option value="">Cart</option>
-            <option value="">Checkout</option>
-            <option value="">Testimnional</option>
-            <option value="">404 Page</option>
-          </select>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a onClick={() => handleNext()} href="#">
+                404
+              </a>
+            </div>
+          </div>
 
           <Link to={"/contact"}>Contact</Link>
         </div>

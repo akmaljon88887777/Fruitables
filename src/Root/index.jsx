@@ -24,6 +24,7 @@ function Root() {
           <Route path="/testiminionals" element={<Testiminonals />} />
           <Route path="/notfound" element={<Notfound />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/notfound" element={<Notfound />} />
         </Routes>
       </div>
     </div>
