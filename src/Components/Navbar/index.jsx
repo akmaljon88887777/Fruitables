@@ -3,7 +3,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 import { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
-import React from "react";
+import { useNavigate } from "react-router-dom";
 import "../../App.css";
 // import JQuery from "jquery";
 
@@ -12,6 +12,21 @@ import "../../App.css";
 function Navbar() {
   const [open, setOpen] = useState(false);
   const [menu, setMenu] = useState(false);
+  const navigate1 = useNavigate(false);
+
+  const navigate11 = () => {
+    navigate1("/cart");
+  };
+  const navigate22 = () => {
+    navigate1("/checkout");
+  };
+  const navigate33 = () => {
+    navigate1("/testiminionals");
+  };
+  const navigate44 = () => {
+    navigate1("/notfound");
+  };
+
   // JQuery(function ($) {
   //   var $navbar = $(".navbar");
   //   $(window).scroll(function (event) {
@@ -65,10 +80,18 @@ function Navbar() {
           <div class="dropdown">
             <button class="dropbtn">Pages</button>
             <div class="dropdown-content">
-              <a href="#">Cart</a>
-              <a href="#">Chackout</a>
-              <a href="#">Testimonial</a>
-              <a href="#">404 Page</a>
+              <a href="#" onClick={() => navigate11()}>
+                Cart
+              </a>
+              <a href="#" onClick={() => navigate22()}>
+                Chackout
+              </a>
+              <a href="#" onClick={() => navigate33()}>
+                Testimonial
+              </a>
+              <a href="#" onClick={() => navigate44()}>
+                404 Page
+              </a>
             </div>
           </div>
 
