@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaShoppingBag } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
 import React from "react";
+import "../../App.css";
 // import JQuery from "jquery";
 
 import { Link, NavLink } from "react-router-dom";
@@ -61,17 +62,15 @@ function Navbar() {
 
           <Link to={"/shopdetail"}>Shop Detail</Link>
 
-          <select
-            className="active:border-none border-none focus:border-none w-[15%]"
-            name=""
-            id=""
-          >
-            <option value="">Pages</option>
-            <option value="">Cart</option>
-            <option value="">Checkout</option>
-            <option value="">Testimnional</option>
-            <option value="">404 Page</option>
-          </select>
+          <div class="dropdown">
+            <button class="dropbtn">Pages</button>
+            <div class="dropdown-content">
+              <a href="#">Cart</a>
+              <a href="#">Chackout</a>
+              <a href="#">Testimonial</a>
+              <a href="#">404 Page</a>
+            </div>
+          </div>
 
           <Link to={"/contact"}>Contact</Link>
         </div>
