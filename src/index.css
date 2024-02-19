@@ -1,8 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-<<<<<<< HEAD
-=======
 *,
 *::after,
 *::before {
@@ -69,5 +67,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
->>>>>>> 36a134a37eeab539c67ed09f82caf83c82d1e258
-

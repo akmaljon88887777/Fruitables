@@ -64,11 +64,21 @@ export default function TestimonialCarousel() {
                     Profession
                   </p>
                   <div className="flex mt-[15px] items-center justify-center">
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#677676]"><FaStar/></p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#677676]">
+                      <FaStar />
+                    </p>
                   </div>
                 </div>
               </div>
@@ -100,11 +110,21 @@ export default function TestimonialCarousel() {
                     Profession
                   </p>
                   <div className="flex mt-[15px] items-center justify-center">
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#677676]"><FaStar/></p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#677676]">
+                      <FaStar />
+                    </p>
                   </div>
                 </div>
               </div>
@@ -136,11 +156,21 @@ export default function TestimonialCarousel() {
                     Profession
                   </p>
                   <div className="flex mt-[15px] items-center justify-center">
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#81C408]"><FaStar/></p>
-                    <p className="text-[1.18rem] text-[#677676]"><FaStar/></p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar />
+                    </p>
+                    <p className="text-[1.18rem] text-[#677676]">
+                      <FaStar />
+                    </p>
                   </div>
                 </div>
               </div>
@@ -152,7 +182,6 @@ export default function TestimonialCarousel() {
             </div>
           </div>
         </SwiperSlide>
-      
       </Swiper>
       <div className="relative left-0-[10px]">
         <div className="custom-button-prevvv">

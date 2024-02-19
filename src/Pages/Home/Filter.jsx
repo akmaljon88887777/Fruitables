@@ -180,7 +180,7 @@ const Filter = () => {
   };
 
   return (
-    <div className="px-[0%] max-lg:ml-[4%] md:ml-0 max-md:ml-0">
+    <div className="px-[0%] max-lg:ml-[4%] md:ml-0 max-md:ml-0 relative z-10">
       <div className="flex items-center max-lg:grid max-lg:gap-[2em] max-md:px-[15%] justify-between max-xl:gap-0 max-xl:px-0 lg:px-[6%] mt-[180px]">
         <p className="text-[2.5rem] text-start font-semibold leading-[1.2] text-[#45595b]">
           Our Organic Products
