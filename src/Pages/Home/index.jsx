@@ -11,7 +11,7 @@ import TestimonialCarousel from "./testimonialCarousel";
 
 function Home() {
   return (
-    <>
+    <div className="">
       <Header />
       <FreeCard />
       <Filter />
@@ -21,7 +21,7 @@ function Home() {
       <Product />
       <GroupCard />
       <TestimonialCarousel />
-    </>
+    </div>
   );
 }
 
