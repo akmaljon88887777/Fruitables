@@ -173,7 +173,6 @@ function ShopDetail() {
           <br />
         </div>
         <div>
-          {/* <div>salom</div> */}
           <div className="lg:grid grid-cols-2 gap-4 lg:flex-row flex-col md:ml-0 lg:ml-0 -ml-32 -mt-[10%]">
             <div>
               <input
