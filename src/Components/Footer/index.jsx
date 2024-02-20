@@ -8,7 +8,7 @@ import { RiCopyrightFill } from "react-icons/ri";
 
 function Footer() {
   return (
-    <div className="bg-[#45595B] flex flex-col h-[100%] xl:h-[81vh] pb-[2em] overflow-hidden">
+    <div className="bg-[#45595B] text-start flex flex-col h-[100%] xl:h-[81vh] pb-[2em] overflow-hidden">
       <div className="grid items-center lg:flex xl:gap-[2em]  gap-[1.5em] mt-[6em] justify-center lg:px-0 px-[4.1%]">
         <div>
           <p className="raleway text-[#81C408] leading-[1.2] xl:text-[2.3em] font-semibold  text-[1.7em]">
