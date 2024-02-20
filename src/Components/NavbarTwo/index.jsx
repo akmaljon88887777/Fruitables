@@ -12,11 +12,11 @@ function NavbarTwo() {
         borderBottomLeftRadius: "15px",
         borderTopRightRadius: "15px",
       }}
-      className="lg:grid grid-cols-2 w-[97.5%] h-[53.13px] bg-[#81c408] md:hidden hidden items-center absolute top-0 text-white"
+      className="lg:grid grid-cols-2 w-[87.5%] m-auto h-[53.13px] xl:ml-[80px] lg:px-10 bg-[#81c408] md:hidden hidden items-center absolute top-0 text-white"
     >
       <div
         style={{ borderTopLeftRadius: "15px" }}
-        className="flex justify-center "
+        className="flex justify-center w-full"
       >
         <div className="flex justify-between w-full">
           <div className="flex gap-7">
@@ -27,13 +27,15 @@ function NavbarTwo() {
               <GrMail color="#ffb524" /> Eamil@Example.com
             </div>
           </div>
-          <div className="flex gap-2">
-            <p>Privacy Policy</p>
-            <p>/</p>
-            <p>Terms of Use</p>
-            <p>/</p>
-            <p>Sales and Refunds</p>
-          </div>
+        </div>
+      </div>
+      <div className="w-full flex justify-end">
+        <div className="flex gap-2">
+          <p>Privacy Policy</p>
+          <p>/</p>
+          <p>Terms of Use</p>
+          <p>/</p>
+          <p>Sales and Refunds</p>
         </div>
       </div>
     </div>
