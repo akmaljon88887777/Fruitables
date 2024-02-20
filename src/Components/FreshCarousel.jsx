@@ -101,16 +101,16 @@ export default function TestimonialCarousel() {
                 Vegitable
               </p>
               <div className="pl-[1em]">
-                <p className="raleway text-start leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold">
+                <p className="raleway text-start leading-[1.2] mt-[25px] text-[24px] text-[#45595b] font-semibold">
                   Banana
                 </p>
-                <p className="raleway text-start mt-[10px] text-[#333] font-medium leading-[1.6] text-[1.02em]">
+                <p className="raleway text-start mt-[10px] text-[#747d88] font-medium leading-[1.6] text-[1.02em]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
                   do eiusmod te incididunt
                 </p>
                 <p></p>
                 <div className="flex items-center justify-start mt-[20px] gap-[1em]">
-                  <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
+                  <p className=" leading-[1.6] text-[20px] text-[#45595b] font-bold">
                     $7.99 / kg
                   </p>
                   <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
@@ -137,16 +137,16 @@ export default function TestimonialCarousel() {
                 Vegitable
               </p>
               <div className="pl-[1em]">
-                <p className="raleway text-start leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold">
+                <p className="raleway text-start leading-[1.2] mt-[25px] text-[24px] text-[#45595b] font-semibold">
                   Banana
                 </p>
-                <p className="raleway text-start mt-[10px] text-[#333] font-medium leading-[1.6] text-[1.02em]">
+                <p className="raleway text-start mt-[10px] text-[#747d88] font-medium leading-[1.6] text-[1.02em]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
                   do eiusmod te incididunt
                 </p>
                 <p></p>
                 <div className="flex items-center justify-start mt-[20px] gap-[1em]">
-                  <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
+                  <p className=" leading-[1.6] text-[20px] text-[#45595b] font-bold">
                     $7.99 / kg
                   </p>
                   <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
@@ -171,16 +171,16 @@ export default function TestimonialCarousel() {
                 Vegitable
               </p>
               <div className="pl-[1em]">
-                <p className="raleway text-start leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold">
+                <p className="raleway text-start leading-[1.2] mt-[25px] text-[24px] text-[#45595b] font-semibold">
                   Banana
                 </p>
-                <p className="raleway text-start mt-[10px] text-[#333] font-medium leading-[1.6] text-[1.02em]">
+                <p className="raleway text-start mt-[10px] text-[#747d88] font-medium leading-[1.6] text-[16px]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
                   do eiusmod te incididunt
                 </p>
                 <p></p>
                 <div className="flex items-center justify-start mt-[20px] gap-[1em]">
-                  <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
+                  <p className=" leading-[1.6] text-[20px] text-[#45595b] font-bold">
                     $7.99 / kg
                   </p>
                   <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
@@ -203,16 +203,16 @@ export default function TestimonialCarousel() {
                 Vegitable
               </p>
               <div className="pl-[1em]">
-                <p className="raleway text-start leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold">
+                <p className="raleway text-start leading-[1.2] mt-[25px] text-[24px] text-[#45595b] font-semibold">
                   Banana
                 </p>
-                <p className="raleway text-start mt-[10px] text-[#333] font-medium leading-[1.6] text-[1.02em]">
+                <p className="raleway text-start mt-[10px] text-[#747d88] font-medium leading-[1.6] text-[16px]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
                   do eiusmod te incididunt
                 </p>
                 <p></p>
                 <div className="flex items-center justify-start mt-[20px] gap-[1em]">
-                  <p className="font-normal leading-[1.6] text-[1.3em] text-[#396064]">
+                  <p className=" leading-[1.6] text-[20px] text-[#45595b] font-bold">
                     $7.99 / kg
                   </p>
                   <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">
@@ -238,7 +238,7 @@ export default function TestimonialCarousel() {
                 <p className="raleway text-start leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold">
                   Banana
                 </p>
-                <p className="raleway text-start mt-[10px] text-[#333] font-medium leading-[1.6] text-[1.02em]">
+                <p className="raleway text-start mt-[10px] text-[#747d88] font-medium leading-[1.6] text-[16px]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
                   do eiusmod te incididunt
                 </p>
@@ -270,7 +270,7 @@ export default function TestimonialCarousel() {
                 <p className="raleway text-start leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold">
                   Banana
                 </p>
-                <p className="raleway text-start mt-[10px] text-[#333] font-medium leading-[1.6] text-[1.02em]">
+                <p className="raleway text-start mt-[10px] text-[#747d88] font-medium leading-[1.6] text-[16px]">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. sed
                   do eiusmod te incididunt
                 </p>
@@ -291,12 +291,12 @@ export default function TestimonialCarousel() {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div className="custom-button-prev">
+      <button className="custom-button-prev cursor-pointer">
         <LuMoveLeft />
-      </div>
-      <div className="custom-button-next">
+      </button>
+      <button className="custom-button-next cursor-pointer">
         <LuMoveRight />
-      </div>
+      </button>
     </div>
   );
 }

@@ -6,7 +6,7 @@ function Header() {
     <>
       <div className="home__header_img mt-[6.5%] pt-[100px]">
         <div className="flex max-lg:flex-col items-center gap-[2em] justify-center">
-          <div className=" flex xl:w-[49%] lg:w-[55%] max-lg:px-[15%] pl-[7.3%]  max-lg:w-full flex-col text-start items-start justify-start ">
+          <div className=" flex xl:w-[49%] lg:w-[55%] max-lg:px-[15%] pl-[7.3%]  max-lg:w-full flex-col text-start items-start lg:justify-start justify-center">
             <p className="raleway  text-[24px]  font-semibold text-[#FFB524]">
               100% Organic Foods
             </p>
@@ -21,7 +21,7 @@ function Header() {
                 name=""
                 id=""
               />
-              <button className="bg-[#75B207] text-white font-semibold  h-[56px] px-[29px] rounded-[32px]">
+              <button className="bg-[#75B207] text-white font-semibold absolute xl:ml-[310px] md:ml-80 ml-12 h-[56px] px-[29px] rounded-[32px]">
                 Submit Now
               </button>
             </div>
