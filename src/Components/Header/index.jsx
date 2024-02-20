@@ -4,7 +4,7 @@ import HeaderCarousel from "./HeaderCarousel";
 function Header() {
   return (
     <>
-      <div className="home__header_img mt-[6.5%] pt-[100px]">
+      <div className="home__header_img  pt-[100px]">
         <div className="flex max-lg:flex-col items-center gap-[2em] justify-center">
           <div className=" flex xl:w-[49%] lg:w-[55%] max-lg:px-[15%] pl-[7.3%]  max-lg:w-full flex-col text-start items-start lg:justify-start justify-center">
             <p className="raleway  text-[24px]  font-semibold text-[#FFB524]">

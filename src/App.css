@@ -60,7 +60,7 @@
   transition: 5s;
   margin-top: 3.6%;
   align-items: center;
-  box-shadow: 0 0 2rem gray;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 .navbar-color {
   position: fixed;
@@ -588,4 +588,26 @@
   .navbar-color {
     margin-top: -150px;
   }
+}
+
+#spiner {
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  transition: opacity 0.8s ease-out, visibility 0s linear 0.5s;
+  z-index: 99999;
+  background-color: #81c408;
+}
+
+#spiner:active {
+  opacity: 0;
+  visibility: hidden;
+  /* transition: opacity 0.8s ease-out, visibility 0s linear 0.5s;
+  z-index: 99999; */
+  /* background-color: #81c408; */
+}
+
+#spiner.show {
+  transition: opacity 0.8s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
 }

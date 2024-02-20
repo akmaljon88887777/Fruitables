@@ -11,7 +11,10 @@ function App() {
       </div>
       <div className=" right-11 z-[999]  bottom-11 fixed">
         <a className=" " href="#">
-          <button className="w-[45px] outline-[green] outline-4  h-[45px] rounded-full flex justify-center items-center bg-[#81C408]">
+          <button
+            id="spiner"
+            className="w-[45px]   h-[45px] rounded-full flex justify-center items-center bg-[#81C408]"
+          >
             <AiOutlineArrowUp size={"20px"} />
           </button>
         </a>
