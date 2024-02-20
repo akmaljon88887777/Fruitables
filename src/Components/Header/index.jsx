@@ -26,7 +26,6 @@ function Header() {
               </button>
             </div>
           </div>
-          {/* Carousel */}
           <HeaderCarousel />
         </div>
       </div>
