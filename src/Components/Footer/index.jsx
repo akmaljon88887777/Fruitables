@@ -72,7 +72,7 @@ function Footer() {
             Shop Info
           </p>
 
-          <p className="text-[#A2ACAD] leading-[2] text-[1.03em] mt-[15px]">
+          <p className="text-[#A2ACAD]  leading-[2] text-[1.03em] mt-[15px]">
             About Us
           </p>
           <p className="text-[#A2ACAD] leading-[2] text-[1.03em]">Contact Us</p>
