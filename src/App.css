@@ -26,20 +26,21 @@
 
 .dropdown-content a {
   color: black;
-  padding: 4px;
-  padding-left: 4px;
+  /* padding: 4px;
+  padding-left: 4px; */
   text-decoration: none;
   display: block;
 }
 .dropdown-content a:hover {
   background-color: #ddd;
   padding: 0px;
+  /* padding-left: 30px;s  */
   margin: 0;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  padding: 7px;
+  /* padding: 7px; */
   margin: 0;
 }
 
