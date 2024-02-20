@@ -11,15 +11,14 @@ const BannerStyle = ({ title }) => {
         backgroundPosition: "center",
         height: "24vh",
         backgroundSize: "cover",
-       
       }}
     >
-      <div className="grid justify-center text-center">
-        <p>{title}</p>
-        <div className="flex" style={{display:""}}>
+      <div className="grid justify-center text-center text-white">
+        <p className="text-white text-[40px] font-extrabold">{title}</p>
+        <div className="flex text-[#81c408] gap-4">
           <p> Home</p>
-          <p> / Pages</p>
-          <p> {title}</p>
+          <p> / Pages /</p>
+          <p className="text-white"> {title}</p>
         </div>
       </div>
     </div>
