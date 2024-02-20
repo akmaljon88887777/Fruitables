@@ -9,7 +9,13 @@ import Rasm from "../../Assets/single-item.jpg";
 import BannerStyle from "../../Components/Peach/BannerStyle";
 import Description from "./Tabs/description";
 import Reviews from "./Tabs/reviewn";
-
+import FeauturedCarts from "../Shop/FeauturedCarts";
+import Image from ".././../Assets/featur-1.jpg";
+import Image2 from ".././../Assets/featur-2.jpg";
+import Image3 from ".././../Assets/featur-3.jpg";
+import Image4 from ".././../Assets/vegetable-item-4.jpg";
+import Image5 from ".././../Assets/vegetable-item-5.jpg";
+import Image6 from ".././../Assets/vegetable-item-6.jpg";
 function ShopDetail() {
   const [counter, setCounter] = useState(1);
   const [demo, setDemo] = useState(false);
@@ -128,7 +134,7 @@ function ShopDetail() {
         </div>
       </div>
       <div className="grid  justify-items-start ml-40">
-        <div className="grid grid-cols-2">
+        <div className="grid lg:grid-cols-2 grid-cols-1">
           <button
             onClick={() => setDemo(true)}
             className={`justify-center  text-black flex items-center w-[118px] h-[48px]  ${
@@ -149,6 +155,27 @@ function ShopDetail() {
         <br />
         <div className="grid lg:grid-cols-2 grid-cols-1 w-[100%] justify-items-center">
           <div className="w-[100%]">{demo ? <Description /> : <Reviews />}</div>
+          <div className="grid gap-4 xl:-mt-72">
+            <p className="text-[24px] font-semibold"> Featured products</p>
+            <FeauturedCarts img={Image} title="Big Banana" />
+            <FeauturedCarts img={Image2} title="Big Banana" />
+            <FeauturedCarts img={Image3} title="Big Banana" />
+            <FeauturedCarts img={Image4} title="Big Banana" />
+            <FeauturedCarts img={Image5} title="Big Banana" />
+            <FeauturedCarts img={Image6} title="Big Banana" />
+            <button className="w-[306px] text-center text-[#81c408] hover:text-[white] h-24 border-[1px] border-[#ffb524] rounded-full font-semibold mt-10 hover:bg-[#ffb524] duration-500 font-sans">
+              View More
+            </button>
+          </div>
+          <br />
+        </div>
+        <div className="grid-cols-1 lg:grid-cols-2 justify-items-center">
+          <div>
+            <input type="text" placeholder="Your Name" name="" id="" />
+          </div>
+          <div>
+            <input type="text" placeholder="Your Email" name="" id="" />
+          </div>
         </div>
       </div>
     </div>
