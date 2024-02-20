@@ -1,3 +1,4 @@
+import { BsFillStarFill } from "react-icons/bs";
 import { FaAppleAlt } from "react-icons/fa";
 
 import { FaSearch } from "react-icons/fa";
@@ -16,6 +17,7 @@ import Image3 from ".././../Assets/featur-3.jpg";
 import Image4 from ".././../Assets/vegetable-item-4.jpg";
 import Image5 from ".././../Assets/vegetable-item-5.jpg";
 import Image6 from ".././../Assets/vegetable-item-6.jpg";
+import TestimonialCarousel2 from "../../Components/FreshCarousel";
 function ShopDetail() {
   const [counter, setCounter] = useState(1);
   const [demo, setDemo] = useState(false);
@@ -29,7 +31,7 @@ function ShopDetail() {
   };
 
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <BannerStyle title="Shop Detail" />
       <div
         style={{ justifyItems: "center" }}
@@ -80,6 +82,7 @@ function ShopDetail() {
             <button className="w-[161px] h-[41px] border flex justify-center items-center gap-4 border-[#ffb524] rounded-full font-semibold text-[#81c408]">
               <RiShoppingBagFill color="#81c408" size={20} /> Add to cart
             </button>
+            <br />
           </div>
         </div>
         <div className="text-start">
@@ -153,9 +156,9 @@ function ShopDetail() {
           </button>
         </div>
         <br />
-        <div className="grid lg:grid-cols-2 grid-cols-1 w-[100%] justify-items-center">
+        <div className="grid lg:grid-cols-2 gap-36 lg:ml-0 -ml-16 grid-cols-1 w-[100%] justify-items-center">
           <div className="w-[100%]">{demo ? <Description /> : <Reviews />}</div>
-          <div className="grid gap-4 xl:-mt-72">
+          <div className="grid gap-4 md:ml-0 lg:ml-0 -ml-20 xl:-mt-72">
             <p className="text-[24px] font-semibold"> Featured products</p>
             <FeauturedCarts img={Image} title="Big Banana" />
             <FeauturedCarts img={Image2} title="Big Banana" />
@@ -163,20 +166,67 @@ function ShopDetail() {
             <FeauturedCarts img={Image4} title="Big Banana" />
             <FeauturedCarts img={Image5} title="Big Banana" />
             <FeauturedCarts img={Image6} title="Big Banana" />
-            <button className="w-[306px] text-center text-[#81c408] hover:text-[white] h-24 border-[1px] border-[#ffb524] rounded-full font-semibold mt-10 hover:bg-[#ffb524] duration-500 font-sans">
+            <button className="w-[100%] text-center text-[#81c408] hover:text-[white] h-24 border-[1px] border-[#ffb524] rounded-full font-semibold mt-10 hover:bg-[#ffb524] duration-500 font-sans">
               View More
             </button>
           </div>
           <br />
         </div>
-        <div className="grid-cols-1 lg:grid-cols-2 justify-items-center">
-          <div>
-            <input type="text" placeholder="Your Name" name="" id="" />
+        <div>
+          {/* <div>salom</div> */}
+          <div className="lg:grid grid-cols-2 gap-4 lg:flex-row flex-col md:ml-0 lg:ml-0 -ml-32 -mt-[15%]">
+            <div>
+              <input
+                type="text"
+                placeholder="Your Name"
+                name=""
+                className="xl:w-[62%] lg:w-[50%] h-[36px] border"
+                id=""
+              />
+            </div>
+            <div className="xl:-ml-[36%]">
+              <input
+                type="text"
+                placeholder="Your Email"
+                name=""
+                className="xl:w-[46%] lg:w-[35%] h-[36px] border"
+                id=""
+              />
+            </div>
+            <div>
+              <textarea
+                name=""
+                placeholder="salom"
+                className="xl:w-[900px] lg:w-[520px] h-[204px] border p-3"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
           </div>
-          <div>
-            <input type="text" placeholder="Your Email" name="" id="" />
+          <div className="flex justify-around -ml-[39%]">
+            <div className="flex items-center gap-2">
+              Please rate:
+              <div className="flex">
+                <BsFillStarFill />
+                <BsFillStarFill />
+                <BsFillStarFill />
+                <BsFillStarFill />
+                <BsFillStarFill />
+              </div>
+            </div>
+            <div className="-ml-[29%] ">
+              <button className="w-full p-12 pt-0 pb-0 h-[57px] border border-[#ffb524] rounded-full text-[#81c408]">
+                Post Comment
+              </button>
+            </div>
           </div>
+
+          <br />
         </div>
+      </div>
+      <div className="">
+        <TestimonialCarousel2 />
       </div>
     </div>
   );

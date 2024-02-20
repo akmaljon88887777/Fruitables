@@ -20,7 +20,7 @@ import { LuMoveLeft } from "react-icons/lu";
 // import required modules
 import { Navigation } from "swiper/modules";
 
-export default function TestimonialCarousel() {
+export default function TestimonialCarousel2() {
   return (
     <div className="px-[0%] z-[-1] mt-[200px]">
       <div className="mb-[2em] max-md:mb-[5em]">
