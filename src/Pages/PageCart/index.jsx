@@ -22,7 +22,7 @@ function PageCart() {
   return (
     <div>
       <div>
-        <div class="container-fluid py-5 w-full m-auto">
+        <div class="container-fluid py-5 mt-[100px] w-full m-auto">
           <div class="container py-5 w-full m-auto">
             <div className="table-responsive overflow-x-auto w-full m-auto">
               <table className="table md:w-[100%] xl:w-[76%] w-[210%] m-auto mt-12">
@@ -190,18 +190,70 @@ function PageCart() {
                 </tbody>
               </table>
             </div>
-            <div class="mt-14 md:flex block gap-11 items-center md:w-[76%] w-[90% ] m-auto">
+            <div class="mt-20 md:flex block gap-11 items-center md:w-[76%] w-[90% ] m-auto">
               <input
                 type="text"
                 class=" border rounded-xl border-t-0 border-l-0 border-r-0 px-3  py-6  mb-4"
                 placeholder="Coupon Code"
               />
               <button
-                class=" rounded-full border px-11 border-[#FFB524] text-[#81C408] font-medium py-6 text-primary"
+                style={{ transition: "all .3s" }}
+                class=" rounded-full border  px-11 hover:bg-[#FFB524] hover:text-white border-[#FFB524] text-[#81C408] font-medium py-6 text-primary"
                 type="button"
               >
                 Apply Coupon
               </button>
+            </div>
+            <div className="xl:w-[76%] lg:w-[85%] md:w-[90%] w-[100%]  m-auto md:justify-end justify-center flex">
+              <div className="bg-[#F4F6F8] p-10  w-[90%] md:w-[50%] lg:w-[40%] rounded-xl">
+                <div className="">
+                  <p className="text-[40px] text-[#45595B] ">
+                    <span className="font-bold">Cart</span>{" "}
+                    <span className="font-medium">Total</span>
+                  </p>
+                </div>
+                <div className="flex justify-between mt-8">
+                  <div>
+                    <p className="text-[#45595B] text-[20px] font-medium">
+                      Subtotal:
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[#45595B]">$96.00</p>
+                  </div>
+                </div>
+                <div className="flex justify-between mt-7 ">
+                  <div>
+                    <p className="text-[#45595B] text-[20px] font-medium">
+                      Shipping
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[#45595B] text-right">
+                      Flat rate: $3.00 <br /> Shipping to Ukraine.
+                    </p>
+                  </div>
+                </div>
+                <hr className="mt-8" />
+                <div className="flex justify-between mt-8">
+                  <div>
+                    <p className="text-[#45595B] text-[20px] font-medium">
+                      Total:
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-[#45595B]">$96.00</p>
+                  </div>
+                </div>
+                <hr className="mt-8" />
+                <button
+                  style={{ transition: "all .3s" }}
+                  class=" rounded-full border mt-8 px-11 hover:bg-[#FFB524] hover:text-white border-[#FFB524] text-[#81C408] font-medium py-6 text-primary"
+                  type="button"
+                >
+                  Proceed Checkout
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -47,7 +47,20 @@
 .dropbtn {
   color: black;
 }
-
+.inp:focus {
+  border-color: #c0e284;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(129, 196, 8, 0.25);
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1000 !important;
+  top: 0;
+  padding-top: 1%;
+  box-shadow: 0 0 2rem gray;
+}
 /* The container <div> - needed to position the dropdown content */
 .dropbtn {
   color: #7c7c7d;
@@ -561,3 +574,6 @@
   line-height: 35px;
 }
 /*** Footer End ***/
+.Active {
+  color: #81c408;
+}
