@@ -205,7 +205,7 @@ function PageCart() {
               </button>
             </div>
             <div className="xl:w-[76%] lg:w-[85%] md:w-[90%] w-[100%]  m-auto md:justify-end justify-center flex">
-              <div className="bg-[#F4F6F8] p-10  w-[90%] md:w-[50%] lg:w-[40%] rounded-xl">
+              <div className="bg-[#F4F6F8] p-10  w-[90%] md:w-[50%] lg:w-[40%] xl:w-[33%] rounded-xl">
                 <div className="">
                   <p className="text-[40px] text-[#45595B] ">
                     <span className="font-bold">Cart</span>{" "}
