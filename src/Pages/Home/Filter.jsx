@@ -253,12 +253,12 @@ const Filter = () => {
           return (
             <div
               key={index}
-              className="flex border border-[#FFB524] rounded-lg pb-[1.45em] max-sm:w-[80%] xl:w-[23%] lg:w-[95%] max-lg:w-[90%] max-md:w-[69%]  flex-col items-center justify-center"
+              className="flex border shadoww border-[#FFB524] rounded-lg pb-[1.45em] max-sm:w-[80%] xl:w-[23%] lg:w-[95%] max-lg:w-[90%] max-md:w-[69%]  flex-col items-center justify-center"
             >
               <div>
-                <div className="flex  items-center justify-center">
+                <div className="flex overflow-hidden items-center justify-center">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg duration-700 cardimg"
                     src={item.img}
                     alt={item.title}
                   />

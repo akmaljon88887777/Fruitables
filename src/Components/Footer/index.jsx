@@ -141,8 +141,7 @@ function Footer() {
       <div className="grid md:grid-cols-2 lg:flex md:justify-between 2xl:px-[8%]  lg:pr-[5%] lg:pl-[3%] items-center text-center mt-[78px] justify-center">
         <div className="flex items-start mx-[14%] md:ml-[-5%] lg:ml-0 justify-center">
           <span
-            className=" font-semibold 
-           text-[1.1em] mt-[6px] ml-[6px] text-center text-[#fff] rounded-full"
+            className="font-semibold text-[1.1em] mt-[6px] ml-[6px] text-center text-[#fff] rounded-full"
           >
             <RiCopyrightFill />
           </span>
@@ -152,11 +151,11 @@ function Footer() {
           </span>
         </div>
         <p className="text-white md:text-end text-[1.03em] mt-[15px] lg:mx-0 mx-[10%] ">
-          Designed By{" "}
+          Designed By~
           <span className="text-white  underline underline-offset-8">
             <span className="text-[#81C408] ">HTML Codex</span>
-          </span>{" "}
-          Distributed By{" "}
+          </span>
+          Distributed By
           <span className="text-white underline underline-offset-8">
             <span className="text-[#81C408]">ThemeWagon</span>
           </span>

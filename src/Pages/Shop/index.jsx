@@ -11,7 +11,7 @@ import Cartsshop from "./cartsshop";
 
 function Shop() {
   return (
-    <div>
+    <div className="pb-44">
       <BannerStyle title="Shop" />
       <div className="grid px-16 xl:px-44 xl:mt-32 text-[#45595b]">
         <div className="w-full">

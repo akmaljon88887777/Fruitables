@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Img from "../../Assets/vegetable-item-3.png";
+import BannerStyle from "../../Components/Peach/BannerStyle";
 
 function PageCart() {
   const [counter, setCounter] = useState(0);
@@ -21,11 +22,12 @@ function PageCart() {
 
   return (
     <div>
+      <BannerStyle title='Cart'/>
       <div>
-        <div class="container-fluid py-5 mt-[100px] w-full m-auto">
+        <div class="container-fluid py-5 mt-[40px] w-full m-auto">
           <div class="container py-5 w-full m-auto">
             <div className="table-responsive overflow-x-auto w-full m-auto">
-              <table className="table md:w-[100%] xl:w-[76%] w-[210%] m-auto mt-12">
+              <table className="table md:w-[100%] xl:w-[87%] w-[100%] m-auto mt-12">
                 <thead className="m-auto border border-black border-l-0  border-r-0  border-t-0  ">
                   <tr>
                     <th scope="col">Products</th>
@@ -36,7 +38,7 @@ function PageCart() {
                     <th scope="col">Handle</th>
                   </tr>
                 </thead>
-                <tbody className=" mt-11 overflow-x-auto w-full m-auto">
+                <tbody className=" overflow-x-auto w-full m-auto">
                   <tr className="border border-l-0  border-r-0  border-t-0 ">
                     <th scope="row ">
                       <div class="d-flex align-items-center">
