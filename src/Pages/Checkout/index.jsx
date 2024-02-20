@@ -4,7 +4,7 @@ import Inputs from "../../Components/Inputs";
 function Checkout() {
   return (
     <div>
-      <div>
+      <div className="mt-48">
         <Inputs />
       </div>
     </div>

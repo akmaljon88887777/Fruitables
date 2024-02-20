@@ -17,11 +17,11 @@ import { Navigation } from "swiper/modules";
 export default function TestimonialCarousel() {
   return (
     <div className="px-[8%] z-[-1]">
-      <div className="mb-[5em]">
-        <p className="raleway text-[#81c408] mt-[130px] font-semibold text-[1.5em]">
+      <div className="mb-[5em] text-center">
+        <p className="raleway text-[#81c408] mt-[130px] font-semibold text-[24px]">
           Our Testimonial
         </p>
-        <p className="raleway text-[3rem] leading-[1.4] font-extrabold text-[#45595b]">
+        <p className="raleway text-[48px] leading-[1.4] font-extrabold text-[#45595b]">
           Our Client Saying!
         </p>
       </div>
@@ -47,7 +47,7 @@ export default function TestimonialCarousel() {
         <SwiperSlide>
           <div className="pl-[1em] py-[1.5em] pb-[1em] mt-[0px]  rounded-lg bg-[#F4F6F8]">
             <div className="flex flex-col  items-start justify-start">
-              <p className="pr-[5%] text-[1.05rem] text-start text-[#747D88]">
+              <p className="pr-[5%] text-[16px] text-start text-[#747D88]">
                 Lorem Ipsum is simply dummy text of the printing Ipsum has been
                 the industry's standard dummy text ever since the 1500s,
               </p>
@@ -57,7 +57,7 @@ export default function TestimonialCarousel() {
               <div className="flex gap-[1.4em] items-center justify-start">
                 <img className="rounded-lg" src={img1} alt="" />
                 <div className="flex flex-col justify-start items-start">
-                  <p className="raleway text-[1.4rem] text-[#45595b] max-sm:text-[1em] font-semibold leading-[1.2]">
+                  <p className="raleway text-[24px] text-[#45595b] max-sm:text-[1em] font-semibold leading-[1.2]">
                     Client Name
                   </p>
                   <p className="mt-[10px] max-sm:text-[0.9em] text-[#8E969F]">
@@ -65,19 +65,19 @@ export default function TestimonialCarousel() {
                   </p>
                   <div className="flex mt-[15px] items-center justify-center">
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
-                    <p className="text-[1.18rem] text-[#677676]">
-                      <FaStar />
+                    <p className="text-[1.18rem] text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ export default function TestimonialCarousel() {
         <SwiperSlide>
           <div className="pl-[1em] py-[1.5em] pb-[1em] mt-[0px]  rounded-lg bg-[#F4F6F8]">
             <div className="flex flex-col  items-start justify-start">
-              <p className="pr-[5%] text-[1.05rem] text-start text-[#747D88]">
+              <p className="pr-[5%] text-[16px] text-start text-[#747D88]">
                 Lorem Ipsum is simply dummy text of the printing Ipsum has been
                 the industry's standard dummy text ever since the 1500s,
               </p>
@@ -103,27 +103,27 @@ export default function TestimonialCarousel() {
               <div className="flex gap-[1.4em] items-center justify-start">
                 <img className="rounded-lg" src={img1} alt="" />
                 <div className="flex flex-col justify-start items-start">
-                  <p className="raleway text-[1.4rem] text-[#45595b] max-sm:text-[1em] font-semibold leading-[1.2]">
+                  <p className="raleway text-[24px] text-[#45595b] max-sm:text-[1em] font-semibold leading-[1.2]">
                     Client Name
                   </p>
                   <p className="mt-[10px] max-sm:text-[0.9em] text-[#8E969F]">
                     Profession
                   </p>
                   <div className="flex mt-[15px] items-center justify-center">
-                    <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
-                    <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
-                    <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
-                    <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
-                    <p className="text-[1.18rem] text-[#677676]">
-                      <FaStar />
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ export default function TestimonialCarousel() {
         <SwiperSlide>
           <div className="pl-[1em] py-[1.5em] pb-[1em] mt-[0px]  rounded-lg bg-[#F4F6F8]">
             <div className="flex flex-col  items-start justify-start">
-              <p className="pr-[5%] text-[1.05rem] text-start text-[#747D88]">
+              <p className="pr-[5%] text-[16px] text-start text-[#747D88]">
                 Lorem Ipsum is simply dummy text of the printing Ipsum has been
                 the industry's standard dummy text ever since the 1500s,
               </p>
@@ -149,27 +149,27 @@ export default function TestimonialCarousel() {
               <div className="flex gap-[1.4em] items-center justify-start">
                 <img className="rounded-lg" src={img1} alt="" />
                 <div className="flex flex-col justify-start items-start">
-                  <p className="raleway text-[1.4rem] text-[#45595b] max-sm:text-[1em] font-semibold leading-[1.2]">
+                  <p className="raleway text-[24px] text-[#45595b] max-sm:text-[1em] font-semibold leading-[1.2]">
                     Client Name
                   </p>
                   <p className="mt-[10px] max-sm:text-[0.9em] text-[#8E969F]">
                     Profession
                   </p>
                   <div className="flex mt-[15px] items-center justify-center">
-                    <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
+                    </p>
+                    <p className=" text-[#81C408]">
+                      <FaStar size={18} />
                     </p>
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
                     <p className="text-[1.18rem] text-[#81C408]">
-                      <FaStar />
-                    </p>
-                    <p className="text-[1.18rem] text-[#677676]">
-                      <FaStar />
+                      <FaStar size={18} />
                     </p>
                   </div>
                 </div>

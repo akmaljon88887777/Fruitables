@@ -6,7 +6,7 @@ import img4 from "../../Assets/fruite-item-2.jpg";
 import img5 from "../../Assets/fruite-item-1.jpg";
 import img6 from "../../Assets/fruite-item-6.jpg";
 import { FaShoppingBag } from "react-icons/fa";
-
+import "./style.css";
 const Filter = () => {
   const all = [
     {
@@ -180,17 +180,17 @@ const Filter = () => {
   };
 
   return (
-    <div className="px-[0%] max-lg:ml-[4%] md:ml-0 max-md:ml-0 relative z-10">
+    <div className="px-[0%] max-lg:ml-[4%] md:ml-0 max-md:ml-0 relative z-10 xl:mx-16">
       <div className="flex items-center max-lg:grid max-lg:gap-[2em] max-md:px-[15%] justify-between max-xl:gap-0 max-xl:px-0 lg:px-[6%] mt-[180px]">
-        <p className="text-[2.5rem] text-start font-semibold leading-[1.2] text-[#45595b]">
+        <p className="text-[40px] text-start md:ml-24 font-semibold leading-[1.2] text-[#45595b]">
           Our Organic Products
         </p>
-        <div className="flex flex-wrap items-center  lg:justify-start xl:justify-center gap-[1em]">
+        <div className="grid grid-cols-1 text-center md:ml-24 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-4 items-center  lg:justify-start xl:justify-center gap-[1em]">
           <button
             onClick={() => {
               handleAll();
             }}
-            className={`w-[130px] rounded-3xl flex items-center  justify-center py-[8px] ${
+            className={`w-[130px] rounded-full flex items-center text-[16px] justify-center py-[8px] ${
               active === "all"
                 ? "bg-[#FFB524] text-white"
                 : "bg-[#F4F6F8] text-[#45595b]"
@@ -202,7 +202,7 @@ const Filter = () => {
             onClick={() => {
               handleVegetables();
             }}
-            className={`w-[130px] rounded-3xl flex items-center  justify-center py-[8px] ${
+            className={`w-[130px] rounded-full flex items-center text-[16px] justify-center py-[8px] ${
               active === "vegetables"
                 ? "bg-[#FFB524] text-white"
                 : "bg-[#F4F6F8] text-[#45595b]"
@@ -214,7 +214,7 @@ const Filter = () => {
             onClick={() => {
               handleFruits();
             }}
-            className={`w-[130px] rounded-3xl flex items-center  justify-center py-[8px] ${
+            className={`w-[130px] rounded-full flex items-center text-[16px] justify-center py-[8px] ${
               active === "fruits"
                 ? "bg-[#FFB524] text-white"
                 : "bg-[#F4F6F8] text-[#45595b]"
@@ -226,7 +226,7 @@ const Filter = () => {
             onClick={() => {
               handleBreads();
             }}
-            className={`w-[130px] rounded-3xl flex items-center  justify-center py-[8px] ${
+            className={`w-[130px] rounded-full flex items-center text-[16px] justify-center py-[8px] ${
               active === "breads"
                 ? "bg-[#FFB524] text-white"
                 : "bg-[#F4F6F8] text-[#45595b]"
@@ -238,7 +238,7 @@ const Filter = () => {
             onClick={() => {
               handleMeat();
             }}
-            className={`w-[130px] rounded-3xl flex items-center  justify-center py-[8px] ${
+            className={`w-[130px] rounded-full flex items-center text-[16px] justify-center py-[8px] ${
               active === "meat"
                 ? "bg-[#FFB524] text-white"
                 : "bg-[#F4F6F8] text-[#45595b]"
@@ -253,7 +253,7 @@ const Filter = () => {
           return (
             <div
               key={index}
-              className="flex border border-[#FFB524] rounded-lg pb-[1.45em] max-sm:w-[80%] xl:w-[22.4%] lg:w-[95%] max-lg:w-[90%] max-md:w-[69%]  flex-col items-center justify-center"
+              className="flex border border-[#FFB524] rounded-lg pb-[1.45em] max-sm:w-[80%] xl:w-[23%] lg:w-[95%] max-lg:w-[90%] max-md:w-[69%]  flex-col items-center justify-center"
             >
               <div>
                 <div className="flex  items-center justify-center">
@@ -263,19 +263,19 @@ const Filter = () => {
                     alt={item.title}
                   />
                 </div>
-                <p className="mb-[200px] mt-[-200px] ml-[10px] z-[9999999] rounded-[10px] absolute px-[20px] w-[75px] py-[4px] bg-[#FFB524] text-white">
+                <p className="mb-[200px] fruit -mt-[52%] md:-mt-[85%] lg:-mt-[63%]  xl:mt-[-200px] ml-[10px] z-[9999999] rounded-[10px] absolute px-[20px] w-[75px] py-[4px] bg-[#FFB524] text-white">
                   Fruits
                 </p>
               </div>
               <div>
-                <p className="raleway leading-[1.2] mt-[25px] text-[1.5rem] text-[#45595b] font-semibold ">
+                <p className="raleway leading-[1.2] mt-[25px] text-center text-[24px] text-[#45595b] font-semibold ">
                   {item.title}
                 </p>
-                <p className="text-[1.1rem] text-[#747d88] mt-[5px] leading-[1.5] font-normal">
+                <p className="text-[16px] m-auto w-[90%] text-[#747d88] text-center mt-[5px] leading-[1.5] font-normal">
                   {item.text}
                 </p>
                 <div className="flex items-center gap-[1em] justify-center mt-[16px]">
-                  <p className="text-[#45595B] font-semibold text-[1.25rem]">
+                  <p className="text-[#45595B] font-semibold text-[20px]">
                     {item.kilo}
                   </p>
                   <div className="flex h-[38px] border  hover:bg-[#ffb524] hover:text-white border-[#FFB524] text-[#81C408] w-[140px] rounded-3xl mt-[10px] items-center justify-center gap-[0.5em]">

@@ -36,14 +36,16 @@ const FreeCard = () => {
           return (
             <div className="bg-[#F4F6F8] px-[3%] py-[35px] flex flex-col max-[990px]:w-[100%] max-[1210px]:w-[230px] max-[1700px]:w-[280px] max-[990px]:py-[20px] xl:w-[300px] items-center justify-center text-center rounded-lg ">
               <div className="bg-[#FFB524] xl:p-[16%]  max-[990px]:p-[11.7%] max-[330px]:p-[12.5%] max-[770px]:p-[9%] max-[460px]:p-[10%] max-[400px]:p-[11%] lg:p-[23%] flex items-center justify-center text-center rounded-[50%]">
-                <p className="text-[2.8em] lg:text-[3.4em] text-white">{item.icon}</p>
+                <p className="text-[2.8em] lg:text-[3.4em] text-white">
+                  {item.icon}
+                </p>
               </div>
-              <div className="free__icon_contaoner max-[1300px]:ml-[40.2%]  "></div>
-              <div className="mt-[65px] max-[990px]:mt-[60px] max-[770px]:mt-[50px] xl:mt-[30px]">
-                <p className="raleway leading-[1.2] text-[1.25rem] text-[#45595b] font-semibold">
+              <div className="free__icon_contaoner max-[1300px]:ml-[40.2%]"></div>
+              <div className="mt-[65px] max-[990px]:mt-[60px] max-[770px]:mt-[50px] grid gap-4 xl:mt-[30px]">
+                <p className="raleway leading-[1.2] text-[20px] text-[#45595b] font-semibold">
                   {item.title}
                 </p>
-                <p className="text-[1rem] text-[#747d88] leading-[1.5] font-normal">
+                <p className="text-[16px] text-[#747d88] leading-[1.5] font-normal">
                   {item.text}
                 </p>
               </div>

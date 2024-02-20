@@ -11,23 +11,31 @@ const Store = () => {
         <p className="text-[4.3rem] leading-[1.2] max-sm:text-[250%]  text-start text-[#45595b]">
           in Our Store
         </p>
-        <p className="text-start text-[1.1rem] mt-[20px] text-[#45595b]">
+        <p className="text-start text-[16px] mt-[20px] text-[#45595b] font-normal">
           The generated Lorem Ipsum is therefore always free from repetition
           injected humour, or non-characteristic words etc.
         </p>
-        <p className="text-start py-[15px] mt-[20px] font-semibold text-[#45595b] flex items-center justify-center rounded-full w-[130px] border-[2px] border-white ">
+        <button className="text-start py-[15px] mt-[20px] hover:bg-[#81C408] duration-700 hover:border-2 font-semibold text-[#45595b] text-[16px] flex items-center justify-center rounded-full w-[130px] border-[2px] border-white ">
           BUY
-        </p>
+        </button>
       </div>
       <div className="flex items-start justify-start">
         <div className="absolute bg-white px-[1.7em]  max-sm:py-[0.3em]  max-sm:px-[1.1em]  py-[0.8em] rounded-full flex items-center justify-center">
           <p className="raleway font-bold text-[5em] text-[#45595b]">1</p>
           <div>
-            <p className="raleway font-semibold text-[1.7em] text-[#45595b]">50 $</p>
-            <p className="raleway font-semibold text-[1.3em] text-[#45595b] text-start">kg</p>
+            <p className="raleway font-semibold text-[1.7em] text-[#45595b]">
+              50 $
+            </p>
+            <p className="raleway font-semibold text-[1.3em] text-[#45595b] text-start">
+              kg
+            </p>
           </div>
         </div>
-        <img className="xl:h-[590px] lg:h-[400px] max-lg:h-[650px] max-md:h-[460px] max-sm:h-[300px]" src={img1} alt="" />
+        <img
+          className="xl:h-[590px] lg:h-[400px] max-lg:h-[650px] max-md:h-[460px] max-sm:h-[300px]"
+          src={img1}
+          alt=""
+        />
       </div>
     </div>
   );

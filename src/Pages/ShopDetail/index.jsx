@@ -1,5 +1,5 @@
 import { FaAppleAlt } from "react-icons/fa";
-import { AiFillAmazonCircle } from "react-icons/ai";
+
 import { FaSearch } from "react-icons/fa";
 import { RiShoppingBagFill } from "react-icons/ri";
 import { TiStarFullOutline } from "react-icons/ti";
@@ -9,9 +9,9 @@ import Rasm from "../../Assets/single-item.jpg";
 import BannerStyle from "../../Components/Peach/BannerStyle";
 import Description from "./Tabs/description";
 import Reviews from "./Tabs/reviewn";
-import { NavLink } from "react-router-dom";
+
 function ShopDetail() {
-  const [counter, setCounter] = useState(2);
+  const [counter, setCounter] = useState(1);
   const [demo, setDemo] = useState(false);
 
   const handleIncrement = () => {
@@ -147,8 +147,8 @@ function ShopDetail() {
           </button>
         </div>
         <br />
-        <div>
-          <p>{demo ? <Description /> : <Reviews />}</p>
+        <div className="grid lg:grid-cols-2 grid-cols-1 w-[100%] justify-items-center">
+          <div className="w-[100%]">{demo ? <Description /> : <Reviews />}</div>
         </div>
       </div>
     </div>
