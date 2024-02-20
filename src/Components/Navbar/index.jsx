@@ -7,7 +7,7 @@ import React from "react";
 import "../../App.css";
 import JQuery from "jquery";
 
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "../../App.css";
 function Navbar() {
   JQuery(function ($) {
@@ -38,20 +38,9 @@ function Navbar() {
     navigate1("/notfound");
   };
 
-  // JQuery(function ($) {
-  //   var $navbar = $(".navbar");
-  //   $(window).scroll(function (event) {
-  //     var $current = $(this).scrollTop();
-  //     if ($current > 0) {
-  //       $navbar.addClass("navbar-color");
-  //     } else {
-  //       $navbar.removeClass("navbar-color");
-  //     }
-  //   });
-  // });
   return (
-    <div className="w-full navbar py-[28px] bg-white">
-      <div className="flex justify-around items-center xl:justify-around md:justify-between md:mx-6">
+    <div className="w-full navbar  bg-white flex items-center justify-center">
+      <div className="flex justify-around items-center lg:gap-20 xl:gap-[250px] gap-16 md:gap-96  xl:justify-around md:justify-between md:mx-6">
         <div>
           <h4 className="font-bold xl:font-extrabold text-[#81c408] text-[40px]">
             Fruitables
@@ -193,9 +182,9 @@ function Navbar() {
           </div>
         </div>
         <div
-          className={`w-full ${
+          className={`lg:w-[97%] md:w-[96%] w-[90%] ${
             open ? "h-[390px]" : "h-0"
-          }  overflow-hidden mt-[50px] justify-start text-start bg-[#fff] absolute px-6 duration-300 transition-all flex flex-col  gap-6 `}
+          }  overflow-hidden mt-[440px] md:mt-[440px]  justify-start text-start bg-[#fff] absolute px-6 duration-300 transition-all flex flex-col  gap-6 `}
         >
           <p
             className={({ isActive, isPending }) =>
@@ -280,9 +269,6 @@ function Navbar() {
           >
             Contact
           </p>
-          <div className="hello world">
-            <button className="but px-7 p-2">Join Class</button>
-          </div>
         </div>
       </div>
     </div>

@@ -37,7 +37,7 @@ const GroupCard = () => {
                 <p className="text-[4.5em] text-[#FFB524] leading-[1.2] mt-[9px]">
                   {item.icon}
                 </p>
-                <p className="raleway font-semibold text-[#81C408] text-[1.5em] max-lg:mx-[6%] leading-[1.2]">
+                <p className="raleway font-semibold text-center text-[#81C408] text-[1.5em] max-lg:mx-[6%] leading-[1.2]">
                   {item.title}
                 </p>
                 <p className="raleway text-[2.5em] leading-[1] text-[#39494B] mt-[-3px] font-semibold">

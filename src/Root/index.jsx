@@ -9,10 +9,15 @@ import Notfound from "../Pages/404";
 import Contact from "../Pages/Contact";
 import Home from "../Pages/Home";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import NavbarTwo from "../Components/NavbarTwo";
 
 function Root() {
   return (
-    <div>
+    <div align="center" className="">
+      <div className="mx-7">
+        <NavbarTwo />
+      </div>
       <Navbar />
       <div>
         <Routes>
@@ -27,6 +32,7 @@ function Root() {
           <Route path="/notfound" element={<Notfound />} />
         </Routes>
       </div>
+      <Footer />
     </div>
   );
 }
