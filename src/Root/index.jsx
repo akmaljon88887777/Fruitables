@@ -14,7 +14,7 @@ import NavbarTwo from "../Components/NavbarTwo";
 
 function Root() {
   return (
-    <div align="center" className="">
+    <div className="">
       <div className="mx-7">
         <NavbarTwo />
       </div>

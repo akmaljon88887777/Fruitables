@@ -47,11 +47,10 @@
         background: #FFB524;
         position: absolute;
         margin-left: 0%;
-        margin-top: 35px;
+        margin-top: 27px;
         transform: rotate(45deg);
         background: #FFB524;
     }
-
 }
 
 @media screen and (max-width:1350px) {
