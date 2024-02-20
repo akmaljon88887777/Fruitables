@@ -6,6 +6,7 @@ import { TiStarFullOutline } from "react-icons/ti";
 import { useState } from "react";
 import React from "react";
 import Rasm from "../../Assets/single-item.jpg";
+import BannerStyle from "../../Components/Peach/BannerStyle";
 import Description from "./Tabs/description";
 import Reviews from "./Tabs/reviewn";
 import { NavLink } from "react-router-dom";
@@ -22,7 +23,8 @@ function ShopDetail() {
   };
 
   return (
-    <div className="mt-[15%]">
+    <div className="">
+      <BannerStyle title="Shop Detail" />
       <div
         style={{ justifyItems: "center" }}
         className="grid lg:grid-cols-3 xl:grid-cols-3 grid-cols-1 object-cover my-24 justify-items-center mx-36"
