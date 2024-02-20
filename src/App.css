@@ -60,12 +60,12 @@
   transition: 5s;
   margin-top: 3.6%;
   align-items: center;
-  box-shadow: 0 0 2rem gray;
 }
 .navbar-color {
   position: fixed;
   top: -7.5%;
   transition: 5s;
+  box-shadow: 0 0 2rem gray;
 }
 /* The container <div> - needed to position the dropdown content */
 .dropbtn {
@@ -585,9 +585,7 @@
   color: #81c408;
 }
 
-
-
-.cardimg:hover{
+.cardimg:hover {
   transform: scale(1.2);
 }
 @media screen and (max-width: 769px) {

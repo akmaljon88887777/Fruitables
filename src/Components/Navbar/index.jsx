@@ -182,7 +182,7 @@ function Navbar() {
           </div>
         </div>
         <div
-          className={`lg:w-[97%] md:w-[96%] w-[90%] ${
+          className={`lg:w-[97%] md:w-[90%] md:-ml-[105px] w-[90%] ${
             open ? "h-[390px]" : "h-0"
           }  overflow-hidden mt-[440px] md:mt-[440px]  justify-start text-start bg-[#fff] absolute px-6 duration-300 transition-all flex flex-col  gap-6 `}
         >
