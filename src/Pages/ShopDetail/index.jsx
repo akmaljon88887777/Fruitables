@@ -20,7 +20,7 @@ import Image6 from ".././../Assets/vegetable-item-6.jpg";
 import TestimonialCarousel2 from "../../Components/FreshCarousel";
 function ShopDetail() {
   const [counter, setCounter] = useState(1);
-  const [demo, setDemo] = useState(false);
+  const [demo, setDemo] = useState(true);
 
   const handleIncrement = () => {
     setCounter(counter + 1);
@@ -85,7 +85,7 @@ function ShopDetail() {
             <br />
           </div>
         </div>
-        <div className="text-start">
+        <div className="text-start mt-24">
           <div>
             <input
               type="text"
@@ -174,7 +174,7 @@ function ShopDetail() {
         </div>
         <div>
           {/* <div>salom</div> */}
-          <div className="lg:grid grid-cols-2 gap-4 lg:flex-row flex-col md:ml-0 lg:ml-0 -ml-32 -mt-[15%]">
+          <div className="lg:grid grid-cols-2 gap-4 lg:flex-row flex-col md:ml-0 lg:ml-0 -ml-32 -mt-[10%]">
             <div>
               <input
                 type="text"

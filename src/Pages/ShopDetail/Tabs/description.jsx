@@ -14,7 +14,7 @@ function Description() {
         snailfish filefish Antarctic icefish goldeye aholehole trumpetfish pilot
         fish airbreathing catfish, electric ray sweeper.
       </p>
-      <div className=" w-[100%] h-[200px]  bg-[#fff] border mt-5 lg:ml-0 md:ml-0 -ml-14">
+      <div className=" w-[100%] h-[200px] xl:w-[82%] bg-[#fff] border mt-5 lg:ml-0 md:ml-0 -ml-14">
         <div className="w-[100%] bg-[#f4f6f8] h-[40px] justify-between text-center items-center grid grid-cols-2">
           <p>Weight</p>
           <p>1kg</p>
