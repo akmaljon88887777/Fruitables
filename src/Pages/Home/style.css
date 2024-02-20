@@ -579,6 +579,31 @@
     z-index: 999;
   }
 }
+@media screen and (max-width: 321px) {
+  .fruit {
+    margin-top: -51% !important;
+  }
+}
+@media screen and (max-width: 376px) {
+  .fruit {
+    margin-top: -51% !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .fruit {
+    margin-top: -51% !important;
+  }
+}
+@media screen and (max-width: 769px) {
+  .fruit {
+    margin-top: -25% !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .fruit {
+    margin-top: -18% !important;
+  }
+}
 @media screen and (max-width: 1441px) {
   .fruit {
     margin-top: -14%;
