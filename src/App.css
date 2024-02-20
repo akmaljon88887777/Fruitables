@@ -584,6 +584,12 @@
 .Active {
   color: #81c408;
 }
+
+
+
+.cardimg:hover{
+  transform: scale(1.2);
+}
 @media screen and (max-width: 769px) {
   .navbar-color {
     margin-top: -150px;

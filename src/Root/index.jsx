@@ -19,7 +19,7 @@ function Root() {
         <NavbarTwo />
       </div>
       <Navbar />
-      <div>
+      <div className="pb-40">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />

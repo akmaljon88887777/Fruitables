@@ -88,16 +88,16 @@ const Cartsshop = () => {
       <div className="grid md:grid md:grid-cols-2 lg:grid lg:grid-cols-2 xl:grid xl:grid-cols-3 gap-10 w-full">
         {data.map((item, index) => {
           return (
-            <div key={index} className="w-full">
+            <div key={index} className="w-full shadoww">
               <div className="">
-                <div className="items-center justify-center">
+                <div style={{transition: "all .3s"}} className="items-center justify-center overflow-hidden">
                   <img
-                    className="rounded-t-lg"
+                    className="rounded-t-lg cardimg duration-300"
                     src={item.img}
                     alt={item.title}
                   />
                 </div>
-                <p className="mb-[200px] mt-[-200px] ml-[10px] z-[9999999] rounded-[10px] absolute px-[20px] w-[75px] py-[4px] bg-[#FFB524] text-white">
+                <p className="mb-[200px] mt-[-200px] ml-[10px] rounded-[10px] absolute px-[20px] w-[75px] py-[4px] bg-[#FFB524] text-white">
                   Fruits
                 </p>
               </div>

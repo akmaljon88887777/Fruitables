@@ -5,7 +5,8 @@ import Imgs3 from "../../Assets/vegetable-item-3.png";
 
 function Inputs() {
   return (
-    <div className="py-[100px]">
+    <div className="">
+        <h1 className="text-left ml-44 py-[20px] text-[#595f65] text-[36px] font-semibold"> Billing details</h1>
       <div className="lg:flex block w-[89%] gap-[40px]  m-auto">
         <div className=" lg:w-[60%] w-[100%]">
           <div className="lg:flex block gap-[30px]">

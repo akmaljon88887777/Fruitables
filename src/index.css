@@ -114,3 +114,9 @@ input[type="range"]::-moz-range-thumb {
   width: 24px;
   height: 24px;
 }
+.shadoww{
+  transition-duration: 1s;
+}
+.shadoww:hover{
+  box-shadow: 0 0 55px rgba(0, 0, 0, 0.4);
+}
