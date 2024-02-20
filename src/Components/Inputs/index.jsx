@@ -196,7 +196,7 @@ function Inputs() {
           </div>
           <hr className="mt-[50px]" />
           <div className="flex justify-end mt-[50px]">
-            <div className="flex md:gap-[200px] gap-10 items-center">
+            <div className="flex md:gap-[200px] lg:gap-[100px] xl:gap-[200px] gap-10 items-center">
               <div>
                 <p className="text-[#747d88]">Shipping </p>
               </div>
@@ -240,7 +240,7 @@ function Inputs() {
           </div>
           <hr className="mt-[50px]" />
           <div className="flex justify-end mt-[50px]">
-            <div className="flex md:gap-[300px] gap-[100px] items-center">
+            <div className="flex md:gap-[300px] lg:gap-[200px] xl:gap-[300px] gap-[100px] items-center">
               <div>
                 <p className="text-[#747d88]"> TOTAL</p>
               </div>
